@@ -1,0 +1,43 @@
+.home__page {
+  width: 100%;
+  max-width: 1920px;
+  height: auto;
+  margin: 0 auto;
+  background: #fff;
+}
+.conteiner {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.page__header {
+  width: 100%;
+  min-height: 950px;
+  background: url(../img/header-image.png) no-repeat top center #002341;
+}
+.header__menu-bar {
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+  background-color: #fff;
+}
+.header__info-bar {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header__logo {
+  width: 130px;
+  height: 80px;
+  background: url(../img/icons/logo-header.png) no-repeat left center;
+}
+.header__menu {
+  position: absolute;
+  bottom: 0;
+}
+.header-menu__items {
+  display: flex;
+}
