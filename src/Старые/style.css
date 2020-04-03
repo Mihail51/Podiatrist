@@ -1,0 +1,75 @@
+.home__page {
+  width: 100%;
+  max-width: 1920px;
+  height: auto;
+  margin: 0 auto;
+  background: #fff;
+}
+.conteiner {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.page__header {
+  width: 100%;
+  min-height: 950px;
+  background: url(../img/header-image.png) no-repeat top center #002341;
+}
+.header__menu-bar {
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+  background-color: #fff;
+}
+.header__info-bar {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header__logo {
+  width: 130px;
+  height: 80px;
+  background: url(../img/icons/logo-header.png) no-repeat left center;
+  font-family: "Rubik-Medium";
+  font-size: 18px;
+  line-height: 95px;
+  font-weight: 500;
+  font-style: normal;
+  color: #7ac142;
+  text-align: right;
+}
+.header__email,
+.header__phone {
+  font-family: "DroidSans-Regular";
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: normal;
+  font-style: normal;
+  padding-left: 36px;
+  color: #010101;
+  filter: hue-rotate(94deg);
+}
+.lead__email,
+.lead__phone {
+  display: block;
+  font-family: "DroidSans-Bold";
+  font-weight: bold;
+  font-style: normal;
+  color: #002341;
+}
+.header__email {
+  background: url(../img/icons/forma-1.png) no-repeat left center;
+}
+.header__phone {
+  background: url(../img/icons/shape-1.png) no-repeat left center;
+}
+.header__menu {
+  position: absolute;
+  bottom: 0;
+}
+.header-menu__items {
+  display: flex;
+}

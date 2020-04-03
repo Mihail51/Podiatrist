@@ -7,54 +7,371 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Podiatrist</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+<!--  <link rel="stylesheet" href="css/fonts.css">  -->
 </head>
 
-<body class="page home__page">
-  <header class="header page__header">
-    <div class="menu-bar header__menu-bar">
-      <div class="conteiner">
-        <div class="info-bar header__info-bar">
-          <div class="logo header__logo">Podiatrist</div>
-          <div class="desc header__email"><span class="lead lead__email">Email:</span> info@Podiatrist.com</div>
-          <div class="desc header__phone"><span class="lead lead__phone">Phone:</span> 0412 954 124</div>
-          <div class="sociles header__sociles">
-            <a href="#" class="socile socile_name_facebook"><img src="img/icons/facebook-1.png" alt="facebook"></a>
-            <a href="#" class="socile socile_name_google-plus"><img src="img/icons/google-plus.png"
-                alt="google-plus"></a>
-            <a href="#" class="socile socile_name_twitter"><img src="img/icons/twitter-1.png" alt="twitter"></a>
-            <a href="#" class="socile socile_name_linkend"><img src="img/icons/linkend-1.png" alt="linkend"></a>
-            <a href="#" class="socile socile_name_google"><img src="img/icons/google-1.png" alt="google"></a>
+<body>
+  <header class="main__header">
+    <div class="wrapper">
+      <nav class="main__header_nav">
+        <div class="total__header_nav">
+          <a class="header__logo" href="#"><img src="img/icons/logo-header.png" alt="Logo"></a>
+          <div class="header__contacts">
+            <dl class="header__contacts_list">
+              <dt>Email:</dt>
+              <dd>info@Podiatrist.com</dd>
+            </dl>
+            <dl class="header__contacts_list">
+              <dt>Phone: </dt>
+              <dd>0412 954 124</dd>
+            </dl>
           </div>
-        </div>
-        <nav class="menu header__menu">
-          <ul class="items header-menu__items">
-            <li class="item header-menu__item header-menu__item_nomber1"><a href="#"
-                class="link header-menu__link header-menu__link_nomber1">Home</a></li>
-            <li class="item header-menu__item header-menu__item_nomber2"><a href="#"
-                class="link header-menu__link header-menu__link_nomber2">About Us</a></li>
-            <li class="item header-menu__item header-menu__item_nomber3"><a href="#"
-                class="link header-menu__link header-menu__link_nomber3">Services</a></li>
-            <li class="item header-menu__item header-menu__item_nomber4"><a href="#"
-                class="link header-menu__link header-menu__link_nomber4">Gallery</a></li>
-            <li class="item header-menu__item header-menu__item_nomber5"><a href="#"
-                class="link header-menu__link header-menu__link_nomber5">News</a></li>
-            <li class="item header-menu__item header-menu__item_nomber6"><a href="#"
-                class="link header-menu__link header-menu__link_nomber6">FAQ’s</a></li>
-            <li class="item header-menu__item header-menu__item_nomber7"><a href="#"
-                class="link header-menu__link header-menu__link_nomber7">Testimonials</a></li>
-            <li class="item header-menu__item header-menu__item_nomber8"><a href="#"
-                class="link header-menu__link header-menu__link_nomber8">Contact</a></li>
+          <ul class="header__social_list">
+            <li class="header__social_item"><a href="#"><img src="" alt="facebook"></a></li>
+            <li class="header__social_item"><a href="#"><img src="" alt="google plus"></a></li>
+            <li class="header__social_item"><a href="#"><img src="" alt="twitter"></a></li>
+            <li class="header__social_item"><a href="$"><img src="" alt="linkend"></a></li>
+            <li class="header__social_item"><a href="%"><img src="" alt="google"></a></li>
           </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="text main__text">
-      <h1 class="title main__text_title">Nunc placerat nulla semper</h1>
-      <p class="subtitle main__text_subtitle">placerat purus ullam sem nec mi ornare</p>
-      <a href="#" class="btn main__text_btn">Appointment</a>
+        </div>
+        <ul class="site__header_nav">
+          <li class="site__header_item"><a href="#">Home</a></li>
+          <li class="site__header_item"><a href="#">About Us</a></li>
+          <li class="site__header_item"><a href="#">Services</a></li>
+          <li class="site__header_item"><a href="#">Gallery</a></li>
+          <li class="site__header_item"><a href="#">News</a></li>
+          <li class="site__header_item"><a href="#">FAQ's</a></li>
+          <li class="site__header_item"><a href="#">Testimonials</a></li>
+          <li class="site__header_item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
+  <main>
+    <h1 class="visually-hidden">Podiatrist - dental clinic</h1>
+    <img src="img/header-image.jpg" alt="Header image" class="main__image">
+    <section class="main__headline">
+      <div class="wrapper">
+        <article class="about__content">
+          <h2 class="visually-hidden">Podiatrist</h2>
+          <p class="headline__text"><span>Nunc placerat nulla semper</span>placerat purus ullam  sem nec mi ornare</p>
+          <a href="#" class="headline__button">Appointment</a>
+        </article>
+      </div>
+    </section>
+    <section class="main__service">
+     <div class="wrapper">
+       <h2>Our Services</h2>
+       <ul class="service__content">
+         <li class="service__content_item">
+           <figure>
+             <img src="img/Ingrown.jpg" alt="Foto">
+             <figcaption>
+               <h3>Ingrown Nail Treatment</h3>
+               <a href="#" class="arrow service__content_arrow"><img src="img/icons/arrow.png" alt="arrow"></a>
+             </figcaption>
+           </figure>
+         </li>
+         <li class="service__content_item">
+           <figure>
+             <img src="img/Fungal.jpg" alt="Foto">
+             <figcaption>
+               <h3>Fungal Nail Advice</h3>
+               <a href="#" class="arrow service__content_arrow"><img src="img/icons/arrow.png" alt="arrow"></a>
+             </figcaption>
+           </figure>
+         </li>
+         <li class="service__content_item">
+           <figure>
+             <img src="img/Nail.jpg" alt="Foto">
+             <figcaption>
+               <h3>Nail Cutting</h3>
+               <a href="#" class="arrow service__content_arrow"><img src="img/icons/arrow.png" alt="arrow"></a>
+             </figcaption>
+           </figure>
+         </li>
+         <li class="service__content_item">
+           <figure>
+             <img src="img/Cracked.jpg" alt="Foto">
+             <figcaption>
+               <h3>Cracked Heels</h3>
+               <a href="#" class="arrow service__content_arrow"><img src="img/icons/arrow.png" alt="arrow"></a>
+             </figcaption>
+           </figure>
+         </li>
+         <li class="service__content_item">
+           <figure>
+             <img src="img/Insoles.jpg" alt="Foto">
+             <figcaption>
+               <h3>Insoles</h3>
+               <a href="#" class="arrow service__content_arrow"><img src="img/icons/arrow.png" alt="arrow"></a>
+             </figcaption>
+           </figure>
+         </li>
+         <li class="service__content_item">
+           <figure>
+             <img src="img/Diabetic.jpg" alt="Foto">
+             <figcaption>
+               <h3>Diabetic Footcare</h3>
+               <a href="#" class="arrow service__content_arrow"><img src="img/icons/arrow.png" alt="arrow"></a>
+             </figcaption>
+           </figure>
+         </li>
+       </ul>
+     </div>
+    </section>
+    <section class="main__about">
+      <div class="wrapper">
+        <article class="about__content">
+          <img src="img/welcome-image.png" alt="Welcome">
+          <div class="about__content_text">
+            <h2>Welcome to Podiatrist</h2>
+            <p>Nam pellentesque, felis quis euismod lacinia, velit augue imperdiet lum magna. Praesent vitae lectus sit amet sapien congue dictum id in neque. Nulla lacus ante, fermentum vitae hendrerit et, congue et eorcobortis a. Quisque vel mauris imperdiet</p>
+            <p>obortis a. Quisque vel mauris imperdiet, convallis erat id, porta nisi. Nam aliquam molestie consequat. Integer imperdiet, erat eget tincidunt tempus, lacus ex interdum odioobortis a. Quisque vel mauris im Integer imperdiet erat eget tincidun</p>
+            <a href="#" class="about__content_button">
+              <h4>read More</h4>
+              <img src="img/icons/arrow.png" alt="arrow">
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="main__gallery">
+      <div class="wrapper">
+        <div class="gallery__headline">
+          <h2>Our Gallery</h2>
+          <a href="#" class="gallery__button">View All</a>
+        </div>
+        <ul class="gallery__content_list">
+          <li class="gallery__content_item"><img src="img/wirral-podiatry-1.jpg" alt="Foto"><a href="#" class="galleru__item_icon"><img src="img/icons/gallery-forma.png" alt="Eye"></a></li>
+          <li class="gallery__content_item"><img src="img/shutterstock_762877822.jpg" alt="Foto"><a href="#" class="galleru__item_icon"><img src="img/icons/gallery-forma.png" alt="Eye"></a></li>
+          <li class="gallery__content_item"><img src="img/shutterstock_263167931.jpg" alt="Foto"><a href="#" class="galleru__item_icon"><img src="img/icons/gallery-forma.png" alt="Eye"></a></li>
+          <li class="gallery__content_item"><img src="img/shutterstock_500008906.jpg" alt="Foto"><a href="#" class="galleru__item_icon"><img src="img/icons/gallery-forma.png" alt="Eye"></a></li>
+          <li class="gallery__content_item"><img src="img/shutterstock_539112592.jpg" alt="Foto"><a href="#" class="galleru__item_icon"><img src="img/icons/gallery-forma.png" alt="Eye"></a></li>
+          <li class="gallery__content_item"><img src="img/shutterstock_766566655.jpg" alt="Foto"><a href="#" class="galleru__item_icon"><img src="img/icons/gallery-forma.png" alt="Eye"></a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="main__team">
+      <div class="wrapper">
+        <h2>Our Team</h2>
+        <ul class="team__content_list">
+          <li class="team__content_item">
+            <figure>
+              <img src="img/Dr.jpg" alt="Doctor">
+              <figcaption>
+                <a href="#">
+                  <h3>Dr.Smile Jhon</h3></a>
+                <p>Mbbs Doctor</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="team__content_item">
+            <figure>
+              <img src="img/Dr-2.jpg" alt="Doctor">
+              <figcaption>
+                <a href="#">
+                  <h3>Dr.Smile Jhon</h3></a>
+                <p>Mbbs Doctor</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="team__content_item">
+            <figure>
+              <img src="img/Dr-3.jpg" alt="Doctor">
+              <figcaption>
+                <a href="#">
+                  <h3>Dr.Smile Jhon</h3></a>
+                <p>Mbbs Doctor</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="team__content_item">
+            <figure>
+              <img src="img/Dr-4.jpg" alt="Doctor">
+              <figcaption>
+                <a href="#">
+                  <h3>Dr.Smile Jhon</h3></a>
+                <p>Mbbs Doctor</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="main__choose">
+     <div class="wrapper">
+        <h2>Why Choose Us</h2>
+        <ul class="choose__content_list">
+          <li class="choose__content_item">
+            <img src="img/icons/choose-care-c.png" alt="Care" class="choose__item_icon">
+            <div class="choose__item_content">
+              <h3 class="choose__item_headline">Emergency  Care</h3>
+              <p class="choose__item_text">Fusce et purus sit amet erat ferm rutrum </p>
+            </div>
+          </li>
+          <li class="choose__content_item">
+            <img src="img/icons/choose-theater-c.png" alt="Theater" class="choose__item_icon">
+            <div class="choose__item_content">
+              <h3 class="choose__item_headline">Operation Theater</h3>
+              <p class="choose__item_text">Fusce et purus sit amet erat ferm rutrum </p>
+            </div>
+          </li>
+          <li class="choose__content_item">
+            <img src="img/icons/choose-doctors-c.png" alt="Doctors" class="choose__item_icon">
+            <div class="choose__item_content">
+              <h3 class="choose__item_headline">Qualified Doctors</h3>
+              <p class="choose__item_text">Fusce et purus sit amet erat ferm rutrum </p>
+            </div>
+          </li>
+          <li class="choose__content_item">
+            <img src="img/icons/choose-technology-c.png" alt="Tehnology" class="choose__item_icon">
+            <div class="choose__item_content">
+              <h3 class="choose__item_headline">Latest Technology</h3>
+              <p class="choose__item_text">Fusce et purus sit amet erat ferm rutrum </p>
+            </div>
+          </li>
+          <li class="choose__content_item">
+            <img src="img/icons/choose-checkup-c.png" alt="Checkup" class="choose__item_icon">
+            <div class="choose__item_content">
+              <h3 class="choose__item_headline">Outdoor Checkup</h3>
+              <p class="choose__item_text">Fusce et purus sit amet erat ferm rutrum </p>
+            </div>
+          </li>
+          <li class="choose__content_item">
+            <img src="img/icons/choose-facilities-c.png" alt="Facilities" class="choose__item_icon">
+            <div class="choose__item_content">
+              <h3 class="choose__item_headline">Health Facilities</h3>
+              <p class="choose__item_text">Fusce et purus sit amet erat ferm rutrum </p>
+            </div>
+          </li>
+        </ul>
+     </div>
+    </section>
+    <section class="main__blog">)
+     <div class="wrapper">
+        <h2>News</h2>
+        <ul class="blog__content_list">
+          <li class="blog__content_item">
+            <figure>
+              <img src="img/shutterstock_388817158-copy.jpg" alt="Foto">
+              <ul class="blog__item_data">
+                <li>22</li>
+                <li>Feb</li>
+              </ul>
+              <figcaption>
+                <header class="blog__item_header">
+                  <p>By Admin</p>
+                  <p>Comments</p>
+                </header>
+                <blockquote>
+                  <cite>Cracked Heel Treatment In Wirral</cite>
+                  <p>Fusce et purus sit amet erat fermentum is rutrum Pellentesque pellent</p>
+                  <a href="#"><p>Read More</p></a>
+                </blockquote>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="blog__content_item">
+            <figure>
+              <img src="img/shutterstock_317834513.jpg" alt="Foto">
+              <ul class="blog__item_data">
+                <li>22</li>
+                <li>Feb</li>
+              </ul>
+              <figcaption>
+                <header class="blog__item_header">
+                  <p>By Admin</p>
+                  <p>Comments</p>
+                </header>
+                <blockquote>
+                  <cite>Cracked Heel Treatment In Wirral</cite>
+                  <p>Fusce et purus sit amet erat fermentum is rutrum Pellentesque pellent</p>
+                  <a href="#"><p>Read More</p></a>
+                </blockquote>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="blog__content_item">
+            <figure>
+              <img src="img/shutterstock_1304819062.jpg" alt="">
+              <ul class="blog__item_data">
+                <li>22</li>
+                <li>Feb</li>
+              </ul>
+              <figcaption>
+                <header class="blog__item_header">
+                  <p>By Admin</p>
+                  <p>Comments</p>
+                </header>
+                <blockquote>
+                  <cite>Fungal Nail Treatment In Wirral</cite>
+                  <p>Fusce et purus sit amet erat fermentum is rutrum Pellentesque pellent</p>
+                  <a href="#"><p>Read More</p></a>
+                </blockquote>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+     </div>
+    </section>
+    <section class="main__testimonials">
+      <div class="wrapper">
+        <h2 class="visually-hidden">Testimonials</h2>
+        <div class="slider">
+              <input type="radio" name="testimonials" id="slide__switcher_1" class="slide__switcher" checked>
+              <input type="radio" name="testimonials" id="slide__switcher_2" class="slide__switcher">
+              <input type="radio" name="testimonials" id="slide__switcher_3" class="slide__switcher">
+              <input type="radio" name="testimonials" id="slide__switcher_4" class="slide__switcher">
+            <div class="slides">
+              <div class="slide slide_1">
+                <article class="slide__content">
+                  <p class="slide__text">There are many variations of passages of Lorem Ipsum available  but the majority have suffered alteration in some form  injected humouror rando</p>
+                  <h3 class="slide__title"><a href="#">Patrick Dane</a>Manager</h3>
+                </article>
+              </div>
+              <div class="slide slide_2">
+                <article class="slide__content">
+                  <p class="slide__text">There are many variations of passages of Lorem Ipsum available  but the majority have suffered alteration in some form  injected humouror rando</p>
+                  <h3 class="slide__title"><a href="#">Patrick Dane</a>Manager</h3>
+                </article>
+              </div>
+              <div class="slide slide_3">
+                <article class="slide__content">
+                  <p class="slide__text">There are many variations of passages of Lorem Ipsum available  but the majority have suffered alteration in some form  injected humouror rando</p>
+                  <h3 class="slide__title"><a href="#">Patrick Dane</a>Manager</h3>
+                </article>
+              </div>
+              <div class="slide slide_4">
+                <article class="slide__content">
+                  <p class="slide__text">There are many variations of passages of Lorem Ipsum available  but the majority have suffered alteration in some form  injected humouror rando</p>
+                  <h3 class="slide__title"><a href="#">Patrick Dane</a>Manager</h3>
+                </article>
+              </div>
+            </div>
+            <div class="controls">
+              <label for="slide__switcher_1" class="label__control label__control_1"><img src="img/Patrick-1.jpg" alt=""></label>
+              <label for="slide__switcher_2" class="label__control label__control_2"><img src="img/Patrick-2.jpg" alt=""></label>
+              <label for="slide__switcher_3" class="label__control label__control_3"><img src="img/Patrick-3.jpg" alt=""></label>
+              <label for="slide__switcher_4" class="label__control label__control_4"><img src="img/Patrick-4.jpg" alt=""></label>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="main__clients">
+     <div class="wrapper">
+        <h2 class="visually-hidden">Our Clients</h2>
+     </div>
+    </section>
+  </main>
+  <footer class="main__footer">
+    <div class="wrapper">
+      <div class="footer__newsletter"></div>
+      <ul class="footer__nav"></ul>
+    </div>
+  </footer>
+ 
 
 </body>
 
