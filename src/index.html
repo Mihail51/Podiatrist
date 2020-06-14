@@ -7,52 +7,59 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Podiatrist</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-<!--  <link rel="stylesheet" href="css/fonts.css">  -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <script src="https://kit.fontawesome.com/6d96e51199.js" crossorigin="anonymous"></script>
+   
 </head>
 
 <body>
   <header class="main__header">
     <div class="wrapper">
-      <nav class="main__header_nav">
-        <div class="total__header_nav">
-          <a class="header__logo" href="#"><img src="img/icons/logo-header.png" alt="Logo"></a>
-          <div class="header__contacts">
-            <dl class="header__contacts_list">
-              <dt>Email:</dt>
-              <dd>info@Podiatrist.com</dd>
-            </dl>
-            <dl class="header__contacts_list">
-              <dt>Phone: </dt>
-              <dd>0412 954 124</dd>
-            </dl>
+      <div class="conteiner">
+        <nav class="main__header_nav">
+          <div class="total__header_nav">
+            <a class="header__logo" href="#"><img src="img/logo-header.svg" alt="Logo"></a>
+            <div class="header__contacts">
+              <dl class="header__contacts_list header__contacts_email">
+                <dt>Email:</dt>
+                <dd>info@Podiatrist.com</dd>
+              </dl>
+              <dl class="header__contacts_list header__contacts_phone">
+                <dt>Phone: </dt>
+                <dd>0412 954 124</dd>
+              </dl>
+            </div>
+            <ul class="header__social_list">
+              <li class="header__social_item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="header__social_item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+              <li class="header__social_item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="header__social_item"><a href="$"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li class="header__social_item"><a href="%"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+            </ul>
           </div>
-          <ul class="header__social_list">
-            <li class="header__social_item"><a href="#"><img src="" alt="facebook"></a></li>
-            <li class="header__social_item"><a href="#"><img src="" alt="google plus"></a></li>
-            <li class="header__social_item"><a href="#"><img src="" alt="twitter"></a></li>
-            <li class="header__social_item"><a href="$"><img src="" alt="linkend"></a></li>
-            <li class="header__social_item"><a href="%"><img src="" alt="google"></a></li>
+          <ul class="site__header_nav">
+            <li class="site__header_item"><a href="#">Home</a></li>
+            <li class="site__header_item"><a href="#">About Us</a></li>
+            <li class="site__header_item"><a href="#">Services</a></li>
+            <li class="site__header_item"><a href="#">Gallery</a></li>
+            <li class="site__header_item"><a href="#">News</a></li>
+            <li class="site__header_item"><a href="#">FAQ's</a></li>
+            <li class="site__header_item"><a href="#">Testimonials</a></li>
+            <li class="site__header_item"><a href="#">Contact</a></li>
           </ul>
-        </div>
-        <ul class="site__header_nav">
-          <li class="site__header_item"><a href="#">Home</a></li>
-          <li class="site__header_item"><a href="#">About Us</a></li>
-          <li class="site__header_item"><a href="#">Services</a></li>
-          <li class="site__header_item"><a href="#">Gallery</a></li>
-          <li class="site__header_item"><a href="#">News</a></li>
-          <li class="site__header_item"><a href="#">FAQ's</a></li>
-          <li class="site__header_item"><a href="#">Testimonials</a></li>
-          <li class="site__header_item"><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+        </nav>
+      </div>
     </div>
   </header>
   <main>
     <h1 class="visually-hidden">Podiatrist - dental clinic</h1>
-    <img src="img/header-image.jpg" alt="Header image" class="main__image">
     <section class="main__headline">
-      <div class="wrapper">
+      <img src="img/header-image.jpg" alt="Header image" class="main__image">
+      <div class="conteiner">
         <article class="about__content">
           <h2 class="visually-hidden">Podiatrist</h2>
           <p class="headline__text"><span>Nunc placerat nulla semper</span>placerat purus ullam  sem nec mi ornare</p>
@@ -60,7 +67,7 @@
         </article>
       </div>
     </section>
-    <section class="main__service">
+<!--    <section class="main__service">
      <div class="wrapper">
        <h2>Our Services</h2>
        <ul class="service__content">
@@ -363,14 +370,14 @@
      <div class="wrapper">
         <h2 class="visually-hidden">Our Clients</h2>
      </div>
-    </section>
+    </section>  -->
   </main>
-  <footer class="main__footer">
+<!--  <footer class="main__footer">
     <div class="wrapper">
       <div class="footer__newsletter"></div>
       <ul class="footer__nav"></ul>
     </div>
-  </footer>
+  </footer>  -->
  
 
 </body>

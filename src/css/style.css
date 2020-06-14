@@ -1,0 +1,199 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+body {
+	max-width: 1920px;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+}
+.conteiner {
+	width: 1170px;
+	margin: 0 auto;
+}
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
+.main__header_nav {
+	position: relative;
+	width: 100%;
+	min-height: 77px;
+	padding-top: 21px;
+	padding-bottom: 52px;
+}
+.total__header_nav {
+	position: relative;
+	width: 100%;
+	min-height: 79px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-align-items: center;
+	align-items: center;
+} 
+.header__logo img {
+	height: 79px;
+}
+.header__logo:after {
+	content: "Podiatrist";
+	position: absolute;
+	left: 40px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 5.28;
+	color: #7ac142;
+
+}.header__contacts {
+	width: 470px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-left: 85px;
+}
+.header__contacts_list dt {
+	font-family: "DroidSans-Bold";
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: bold;
+	color: #002341;
+}
+.header__contacts_list dd {
+	font-family: "DroidSans-Regular";
+	font-size: 17px;
+	line-height: 23px;
+	font-weight: normal;
+	color: #000;
+	margin-left: 0;
+}
+.header__contacts_list {
+	position: relative;
+	margin-left: 40px;
+}
+.header__contacts_list:before {
+	font-family: 'FontAwesome';
+	position: absolute;
+	font-size: 18px;
+	top: 50%;
+	margin-top: -10px;
+	left: -28px;
+	color: #7ac142;		
+}
+.header__contacts_phone:before {
+	content: "\f095";
+}
+.header__contacts_email:before {
+	content: "\f0e0";
+}
+.header__social_item {
+	display: inline-block;
+}
+.header__social_item a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid rgba(122, 193, 66, .5);
+	color: #7ac142;
+	text-align: center;
+	line-height: 30px;
+	margin: 0 2.5px;
+}
+
+.site__header_nav {
+	position: absolute;
+	width: 100%;
+	border-radius: 32.5px;
+	background: #002341;
+/*	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-align-items: center;
+	align-items: center;   */
+	list-style-type: none;
+	padding-left: 0;
+	z-index: 10;
+}
+.site__header_item {
+	display: inline-block;
+	width: calc(100%/8 - 7px);
+	min-height: 65px;
+	border-right: 1px solid #143450;
+	text-align: center;
+}
+.site__header_item:last-child {
+	border: none;
+}
+.site__header_item a {
+	font-family: "DroidSans-Regular";
+	font-size: 18px;
+	line-height: 350%;
+	color: #fff;
+	text-decoration: none;
+
+}
+.site__header_item a:hover {
+	text-decoration: underline;
+}
+
+
+.main__headline {
+	position: relative;
+	width: 100%;
+	max-height: 796px;
+	background: #002341;
+	overflow: hidden;
+}
+.main__headline img {
+	margin-top: -150px;
+	opacity: .35;
+}
+.about__content {
+	position: absolute;
+	text-align: center;
+	width: 930px;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+}
+.headline__text {
+	font-family: "DroidSans-Regular";
+	font-size: 30px;
+	line-height: 1.73;
+	color: #fff;
+}
+.headline__text span {
+	display: block;
+	font-family: 'Rubik', sans-serif;
+	font-size: 70px;
+	font-weight: 500;
+	line-height: .69;
+}
