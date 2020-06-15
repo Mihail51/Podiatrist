@@ -42,6 +42,10 @@ body {
 	flex-wrap: wrap;
 	-ms-align-items: center;
 	align-items: center;
+}
+.header__logo {
+	width: 150px;
+	position: relative;
 } 
 .header__logo img {
 	height: 79px;
@@ -56,7 +60,8 @@ body {
 	line-height: 5.28;
 	color: #7ac142;
 
-}.header__contacts {
+}
+.header__contacts {
 	width: 470px;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -69,7 +74,7 @@ body {
 	-ms-flex-wrap: wrap;
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin-left: 85px;
+/*	margin-left: 85px;  */
 }
 .header__contacts_list dt {
 	font-family: "DroidSans-Bold";
@@ -144,7 +149,7 @@ body {
 .site__header_item {
 	display: inline-block;
 	width: calc(100%/8 - 7px);
-	min-height: 65px;
+	max-height: 65px;
 	border-right: 1px solid #143450;
 	text-align: center;
 }
@@ -167,9 +172,10 @@ body {
 .main__headline {
 	position: relative;
 	width: 100%;
+	max-width: 1920px;
 	max-height: 796px;
 	background: #002341;
-	overflow: hidden;
+	overflow-y: hidden;
 }
 .main__headline img {
 	margin-top: -150px;
@@ -196,4 +202,31 @@ body {
 	font-size: 70px;
 	font-weight: 500;
 	line-height: .69;
+}
+
+
+
+@media (max-width: 1200px) {
+	.conteiner {
+		width: 960px;
+	}
+}@media (max-width: 992px) {
+	.conteiner {
+		width: 720px;
+	}
+	.total__header_nav {
+		justify-content: space-around;
+	}
+	.site__header_item a {
+		font-size: 13px;
+	}
+	.main__header_nav {
+		padding-bottom: 36px;
+	}
+	.headline__text {
+		font-size: 18px;
+	}
+	.headline__text span {
+		font-size: 43px;
+	}
 }
