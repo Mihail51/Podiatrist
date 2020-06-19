@@ -23,7 +23,7 @@ body {
 	width: 100%;
 	min-height: 77px;
 	padding-top: 21px;
-	padding-bottom: 52px;
+	padding-bottom: 26px;
 }
 .total__header_nav {
 	position: relative;
@@ -100,7 +100,7 @@ body {
 	position: absolute;
 	font-size: 18px;
 	top: 50%;
-	margin-top: -10px;
+	transform: translateY(-50%);
 	left: -28px;
 	color: #7ac142;		
 }
@@ -127,21 +127,9 @@ body {
 .site__header_nav {
 	position: absolute;
 	width: 100%;
+	margin: 0;
 	border-radius: 32.5px;
 	background: #002341;
-/*	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: space-around;
-	-webkit-flex-wrap: wrap;
-	-moz-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	-o-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-ms-align-items: center;
-	align-items: center;   */
 	list-style-type: none;
 	padding-left: 0;
 	z-index: 100;
@@ -156,13 +144,16 @@ body {
 .site__header_item:last-child {
 	border: none;
 }
-.site__header_item a {
+.site__header_item a, .menuToggle {
 	font-family: "DroidSans-Regular";
 	font-size: 18px;
 	line-height: 350%;
 	color: #fff;
 	text-decoration: none;
 
+}
+#menuCheck, .menuToggle {
+	display: none;
 }
 .site__header_item a:hover {
 	text-decoration: underline;
@@ -240,7 +231,7 @@ body {
 		font-size: 13px;
 	}
 	.main__header_nav {
-		padding-bottom: 36px;
+		padding-bottom: 19px;
 	}
 	.headline__text {
 		font-size: 18px;
@@ -254,7 +245,10 @@ body {
 	.conteiner {
 		width: 540px;
 	}
-	.site__header_item a {
+	.main__header_nav {
+		padding-bottom: 13px;
+	}
+	.site__header_item a, .menuToggle {
 		font-size: 10px;
 	}
 }
@@ -268,12 +262,32 @@ body {
 		max-width: 470px;
 		justify-content: space-around;
 	}
+	.menuToggle {
+		position: absolute;
+		display: inherit;
+		width: 57.0167px;
+		right: 50%;
+		margin-right: -28.5px;
+		border-radius: 5px;
+		background: rgba(0, 35, 65, .8);
+		z-index: 100;
+		cursor: pointer;
+	}
+	#menuCheck:checked + .site__header_nav {
+		display: initial;
+		opacity: 1;
+	}
 	
 	.site__header_nav {
+		display: none;
 		width: initial;
 		border-radius: 5px;
 		right: 50%;
 		margin-right: -28.5px;
+		margin-top: 30px;
+		background: rgba(0, 35, 65, .8);
+		opacity: 0;
+		transition: all .5s linear;
 	}
 	.site__header_item {
 		display: inherit;
