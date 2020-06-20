@@ -123,6 +123,17 @@ body {
 	line-height: 30px;
 	margin: 0 2.5px;
 }
+.icon-c {
+	display: none;
+	height: 16px;
+}
+.header__social_item a:hover > .svg-inline--fa {
+	display: none;
+}
+.header__social_item a:hover > .icon-c {
+	display: initial;
+	margin-bottom: -2px;
+}
 
 .site__header_nav {
 	position: absolute;
