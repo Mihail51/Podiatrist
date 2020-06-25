@@ -10,6 +10,10 @@ body {
 	width: 1170px;
 	margin: 0 auto;
 }
+.wrapper {
+	width: 100%;
+	background: #f7f7f7;
+}
 .visually-hidden {
 	position: absolute;
 	clip: rect(0 0 0 0);
@@ -237,7 +241,7 @@ body {
 	margin-top: -6%;
 	opacity: .35;
 }
-.about__content {
+.headline__content {
 	position: absolute;
 	text-align: center;
 	width: 930px;
@@ -352,6 +356,67 @@ body {
 }
 
 
+/* About */
+.about__content {
+	width: 100%;
+	padding: 35px 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-align-items: center;
+	align-items: center;
+}
+.about__content_text {
+	flex-basis: 50.34%;
+	font-family: DroidSans;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #000000;
+}
+.about__content_button {
+	position: relative;
+	font-size: 20px;
+	font-weight: 700;
+	color: #7ac142;
+	text-decoration: none;
+}
+.about__content_button p::first-letter {
+	text-transform: uppercase;
+}
+.about__content_button:after {
+	font-family: 'FontAwesome';
+	content: "\f178";
+	font-size: 20px;
+	font-weight: 700;
+	color: #7ac142;
+	position: absolute;
+	top: 50%;
+	transform: translate(50%, 50%);
+	left: 90px;
+}
+.about__image {
+	flex-basis: 40.76%;
+	background: url(../img/icons/about-circles.svg) no-repeat center bottom;
+	-webkit-background-size: 470px;
+	background-size: 470px;
+	text-align: center;
+	order: 2;
+}
+.about__image img {
+	width: 100%;
+	max-width: 354px;
+}
+
+
 
 
 @media (max-width: 1200px) {
@@ -422,6 +487,14 @@ body {
 	.service__content_item {
 		margin: 15px 10px;
 	}
+
+	.about__image {
+		flex-basis: 100%;
+		order: initial
+	}
+	.about__content_text {
+		flex-basis: 100%;
+	} 
 }
 
 @media (max-width: 576px) {
@@ -483,6 +556,14 @@ body {
 	    border-radius: 4.8vw;
 	    border: .8vw solid #7ac142;
 	    font-size: 3.5vw;
+	 }
+
+	 .about__content_text {
+	 	font-size: 14px;
+	 	padding: 0 15px;
+	 }
+	 .about__content_button {
+	 	font-size: 18px;
 	 }
 }
 
