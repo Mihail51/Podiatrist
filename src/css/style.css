@@ -189,7 +189,24 @@ body {
 }
 .header__social_item a:hover > .icon-c {
 	display: initial;
-	margin-bottom: -2px;
+	height: 1.7em;
+	margin-bottom: -8px;
+}
+.header__social_item a:hover > .icon-c_fb {
+	margin-left: 2px;
+}
+.header__social_item a:hover > .icon-c_gg {
+	margin-left: -1px;
+}
+.header__social_item a:hover > .icon-c_tw {
+	margin-left: 1px;
+	margin-bottom: -7px;
+}
+.header__social_item a:hover > .icon-c_in {
+	margin-left: -1px;
+}
+.header__social_item a:hover > .icon-c_g {
+	margin-left: -1px;
 }
 
 .site__header_nav {
